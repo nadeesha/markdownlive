@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css"></link>
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.css"></link>
+    <link rel="stylesheet" type="text/css" href="styles.css"></link>
+</head>
+
+<body>
+    <div class="row expand">
+        <div id="ml-editor" class="col-md-6 expand">#foo
+[bar](http://example.org)</div>
+        <div class="col-md-6 expand">
+        	<xmp id="ml-rendered" theme="united" style="display:none;">
+        	</xmp>
+        </div>
+    </div>
+    <script type="text/javascript" src="bower_components/ace-builds/src-min/ace.js"></script>
+    <script type="text/javascript" src="bower_components/ace-builds/src-min/mode-markdown.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+</body>
+
+</html>
